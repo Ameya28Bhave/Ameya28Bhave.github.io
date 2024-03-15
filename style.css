@@ -100,6 +100,7 @@ header {
 header h1 {
     margin: 0;
     color: #333;
+    font-size:x-large;
 }
 
 nav {
@@ -137,13 +138,42 @@ body {
     color: #333;
 }
 
-.profile-photo img{
-    width: 20%;
-    height: auto;
-    border-radius: 70%;
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightgray ;
+    opacity: 0.9;
 }
 
-.profile-photo .header-links img{
-    width: 1%;
-    height: auto;
+.profile-photo{
+    height: 350px;
+    width: 25%;
 }
+
+.profile-photo img{
+    height: 320px;
+    width: 20vw;
+    border-radius: 50%;
+}
+
+.profile-photo .header-links{
+    align-items:end;
+}
+
+.profile-photo .header-links a{
+    color: blue;
+    padding-left: 60px;
+    font-size: 18px;
+}
+
+.profile-description{
+    height: 350px;
+    width: 75%;
+}
+
+.profile-description p{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+

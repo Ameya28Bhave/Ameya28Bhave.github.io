@@ -32,6 +32,7 @@ header {
     padding: 0 20px; /* Padding on the sides */
 }
 
+
 .navbar-container h1 {
     color: #e8e8e8;
 }
@@ -64,7 +65,7 @@ header {
 }
 
 /* Responsive adjustments (optional) */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     h1 {
         font-size: 2rem;
     }
@@ -94,7 +95,23 @@ header {
 
     .navbar-container:hover .nav-links {
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
+
+    .profile-photo img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header-links div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: auto;
+    }
+
+
 }
 
 header h1 {
@@ -144,6 +161,11 @@ body {
     justify-content: space-around;
 }
 
+.header-links div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .profile-photo{
     width: 25%;
     background-color: lightgray;
@@ -153,6 +175,7 @@ body {
     height: 340px;
     width: 20vw;
     border-radius: 50%;
+    display: flex;
 }
 
 .profile-photo .header-links{

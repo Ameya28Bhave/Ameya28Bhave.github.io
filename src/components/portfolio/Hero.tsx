@@ -67,7 +67,7 @@ const Hero = () => {
               <Github size={22} />
             </a>
             <a
-              href="https://linkedin.com/in/ameya-bhave"
+              href="https://www.linkedin.com/in/ameya-bhave-130a45148/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary hover:bg-secondary/80 text-secondary-foreground transition-colors card-hover"
@@ -83,7 +83,7 @@ const Hero = () => {
               <Mail size={22} />
             </a>
             <a
-              href="https://scholar.google.com"
+              href="https://scholar.google.com/citations?hl=en&user=1YdejO8AAAAJ"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary hover:bg-secondary/80 text-secondary-foreground transition-colors card-hover"

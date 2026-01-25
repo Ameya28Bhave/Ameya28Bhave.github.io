@@ -77,7 +77,7 @@ const Contact = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/ameya-bhave"
+                href="https://www.linkedin.com/in/ameya-bhave-130a45148/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-4 bg-card rounded-xl shadow-card card-hover"

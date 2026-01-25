@@ -3,36 +3,49 @@ import { Badge } from "@/components/ui/badge";
 
 const publications = [
   {
+    title: "HyperNQ: A Hypergraph Neural Network Decoder for Quantum LDPC Codes",
+    authors: "Ameya S Bhave, Navnil Choudhury, Kanad Basu",
+    venue: "IEEE ICC",
+    year: "2026",
+    type: "Conference",
+    description: "Hypergraph neural networks for decoding quantum low-density parity-check codes with improved error rates.",
+    link: "https://arxiv.org/abs/2511.01741",
+  },
+  {
+    title: "QUARTET: Quantum Utilization and Adaptation via Resource-Tuned Execution Techniques",
+    authors: "Navnil Choudhury, Ameya S Bhave, Kanad Basu",
+    venue: "2025 IEEE International Conference on Quantum Computing and Engineering (QCE)",
+    year: "2025",
+    type: "Conference",
+    description: "Resource-aware techniques for optimizing quantum program execution on constrained hardware.",
+    link: "https://ieeexplore.ieee.org/abstract/document/11250316",
+  },
+  {
     title: "ZXNet: ZX Calculus-Driven Graph Neural Network Framework for Quantum Circuit Equivalence Checking",
+    authors: "Navnil Choudhury, Ameya S Bhave, Kanad Basu",
     venue: "DAC 2025",
     year: "2025",
     type: "Conference",
     description: "A novel GNN framework leveraging ZX calculus for efficient quantum circuit verification.",
-    link: "#",
-  },
-  {
-    title: "HyperNQ: A Hypergraph Neural Network Decoder for Quantum LDPC Codes",
-    venue: "arXiv",
-    year: "2025",
-    type: "Preprint",
-    description: "Hypergraph neural networks for decoding quantum low-density parity-check codes with improved error rates.",
-    link: "#",
+    link: "https://ieeexplore.ieee.org/document/11133226",
   },
   {
     title: "Biclustering a dataset using photonic quantum computing",
+    authors: "Ajinkya Borle, Ameya S Bhave",
     venue: "Frontiers in Computer Science",
     year: "2024",
     type: "Journal",
     description: "Novel approach to biclustering using photonic quantum computing for enhanced data analysis.",
-    link: "#",
+    link: "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2024.1441879/full",
   },
   {
-    title: "On quantum annealing without a physical quantum annealer",
+    title: "On Quantum Annealing Without a Physical Quantum Annealer",
+    authors: "Ameya Bhave, Ajinkya Borle",
     venue: "QET Conference",
     year: "2023",
     type: "Conference",
     description: "Exploring quantum annealing simulation techniques without dedicated quantum hardware.",
-    link: "#",
+    link: "https://arxiv.org/pdf/2307.09695",
   },
 ];
 
@@ -76,6 +89,9 @@ const Publications = () => {
                   <h3 className="font-semibold text-lg mb-2 group-hover:text-primary transition-colors">
                     {pub.title}
                   </h3>
+                  <p className="text-xs text-muted-foreground mb-2">
+                    {pub.authors}
+                  </p>
 
                   <p className="text-muted-foreground text-sm mb-3">
                     {pub.description}

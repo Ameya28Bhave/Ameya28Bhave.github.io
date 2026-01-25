@@ -49,8 +49,14 @@ const Navigation = () => {
               {link.label}
             </a>
           ))}
-          <Button size="sm" className="bg-gradient-warm text-primary-foreground shadow-warm hover:opacity-90">
-            Resume
+          <Button
+            size="sm"
+            className="bg-gradient-warm text-primary-foreground shadow-warm hover:opacity-90"
+            asChild
+          >
+            <a href="/AB_CV.pdf" target="_blank" rel="noopener noreferrer">
+              Resume
+            </a>
           </Button>
         </div>
 
@@ -78,8 +84,13 @@ const Navigation = () => {
                 {link.label}
               </a>
             ))}
-            <Button className="bg-gradient-warm text-primary-foreground shadow-warm hover:opacity-90 w-full mt-2">
-              Resume
+            <Button
+              className="bg-gradient-warm text-primary-foreground shadow-warm hover:opacity-90 w-full mt-2"
+              asChild
+            >
+              <a href="/AB_CV.pdf" target="_blank" rel="noopener noreferrer">
+                Resume
+              </a>
             </Button>
           </div>
         </div>

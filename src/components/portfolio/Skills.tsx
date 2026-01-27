@@ -4,34 +4,41 @@ const skillCategories = [
   {
     icon: Code2,
     title: "Languages",
-    skills: ["Python", "Java", "JavaScript", "TypeScript", "Go", "SQL", "Solidity"],
-  },
-  {
-    icon: Layers,
-    title: "Frameworks & Libraries",
-    skills: ["React", "Next.js", "Node.js", "Express", "LangChain", "Qiskit"],
+    skills: ["Python", "Rust", "C", "SQL", "JavaScript", "TypeScript"],
   },
   {
     icon: Cpu,
-    title: "Quantum Computing",
-    skills: ["Qiskit", "Quantum Algorithms", "Error Correction", "Photonic QC"],
+    title: "Quantum & QEC",
+    skills: [
+      "Quantum Error Correction (QEC)",
+      "QLDPC (BB, HGP)",
+      "Decoding: BP, BP+OSD, ML-based",
+      "Erasure-aware fault tolerance",
+      "Circuit-to-decoder workflows",
+    ],
   },
   {
-    icon: Database,
-    title: "Databases",
-    skills: ["MongoDB", "PostgreSQL", "Pinecone", "Firebase", "Oracle"],
-  },
-  {
-    icon: Cloud,
-    title: "Cloud & DevOps",
-    skills: ["AWS", "Azure", "Docker", "Kubernetes", "CI/CD"],
+    icon: Layers,
+    title: "ML & Scientific Computing",
+    skills: ["PyTorch", "PyTorch Geometric", "NumPy", "SciPy", "Matplotlib"],
   },
   {
     icon: Terminal,
-    title: "Tools & Platforms",
-    skills: ["Git", "Linux", "Jupyter", "VS Code", "Postman"],
+    title: "Quantum Tooling",
+    skills: ["Qiskit", "Stim", "sinter", "ZX-calculus (basics)"],
+  },
+  {
+    icon: Cloud,
+    title: "Engineering & DevOps",
+    skills: ["Git", "Linux", "Docker", "GitHub Actions (CI/CD)", "Kubernetes (basics)"],
+  },
+  {
+    icon: Database,
+    title: "Data & Storage",
+    skills: ["PostgreSQL", "MongoDB", "Oracle (enterprise)", "Vector DBs (Pinecone)"],
   },
 ];
+
 
 const Skills = () => {
   return (

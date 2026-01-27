@@ -20,11 +20,10 @@ const About = () => {
     },
     {
       icon: Award,
-      title: "Certifications",
+      title: "Certifications & Community Involvement",
       items: [
-        "Qiskit Global Summer School 2025",
+        "IBM Quantum Qiskit Advocate",
         "Microsoft Azure AI Engineer Associate",
-        "IBM Quantum Challenge 2024",
       ],
     },
   ];
@@ -45,20 +44,26 @@ const About = () => {
           {/* Text Content */}
           <div className="space-y-6">
             <p className="text-lg leading-relaxed text-muted-foreground">
-              I'm a PhD student at The University of Texas at Dallas, working at the intersection of 
-              <span className="text-foreground font-medium"> quantum computing</span> and 
-              <span className="text-foreground font-medium"> machine learning</span>. My research focuses 
-              on developing novel approaches to Quantum Error Correction and designing efficient quantum algorithms.
+              I'm a PhD student in <span className="text-foreground font-medium">Computer Engineering</span> at{" "}
+              <span className="text-foreground font-medium">The University of Texas at Dallas</span>, where I work in{" "}
+              <span className="text-foreground font-medium">Quantum Error Correction (QEC)</span> with an emphasis on{" "}
+              <span className="text-foreground font-medium">erasure-aware fault tolerance</span> and scalable decoding for{" "}
+              <span className="text-foreground font-medium">Quantum LDPC (QLDPC)</span> codes (e.g., BB/HGP). I build practical,
+              reproducible simulation and benchmarking workflows (Stim/sinter-style), and I'm especially interested in decoder
+              design choices that balance accuracy with low-latency constraints.
             </p>
+
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Before diving into academia, I spent over three years at Accenture as an Application Development 
-              Analyst, where I honed my skills in building scalable software solutions. This industry experience 
-              gives me a unique perspective on translating theoretical advances into practical applications.
+              Before diving into academia, I spent over three years at Accenture as an Application Development Analyst, where I honed my skills in building scalable software solutions. This industry experience gives me a unique perspective on translating theoretical advances into practical applications.
             </p>
+
             <p className="text-lg leading-relaxed text-muted-foreground">
-              When I'm not wrestling with qubits, you'll find me exploring full-stack development, 
-              contributing to open-source projects, or diving into the latest advances in AI.
+              Alongside my research, I contribute to the quantum software ecosystem as a{" "}
+              <span className="text-foreground font-medium">Qiskit Advocate</span>, including work through IBM's{" "}
+              <span className="text-foreground font-medium">Qiskit Advocate Mentorship Program (QAMP)</span> on circuit-library
+              exposure via the <span className="text-foreground font-medium">C-API</span>, documentation, and tutorials.
             </p>
+
           </div>
 
           {/* Highlights Cards */}

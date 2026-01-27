@@ -14,7 +14,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Form submission logic would go here
-    const mailtoLink = `mailto:ameya.bhave@utdallas.edu?subject=Portfolio Contact from ${formData.name}&body=${formData.message}`;
+    const mailtoLink = `mailto:bhaveameya28@gmail.com?subject=Portfolio Contact from ${formData.name}&body=${formData.message}`;
     window.location.href = mailtoLink;
   };
 
@@ -43,7 +43,7 @@ const Contact = () => {
 
             <div className="space-y-4">
               <a
-                href="mailto:ameya.bhave@utdallas.edu"
+                href="mailto:bhaveameya28@gmail.com"
                 className="flex items-center gap-4 p-4 bg-card rounded-xl shadow-card card-hover group"
               >
                 <div className="p-3 rounded-lg bg-secondary group-hover:bg-gradient-warm group-hover:text-primary-foreground transition-all">
@@ -51,7 +51,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-medium">ameya.bhave@utdallas.edu</p>
+                  <p className="font-medium">bhaveameya28@gmail.com</p>
                 </div>
               </a>
 

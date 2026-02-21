@@ -3,6 +3,15 @@ import { Badge } from "@/components/ui/badge";
 
 const publications = [
   {
+    title: "BiBiEQ : Bivariate Bicycle Codes on Erasure Qubits",
+    authors: "Ameya S Bhave, Navnil Choudhury, Andrew Nemec, Kanad Basu",
+    venue: "IEEE QCNC",
+    year: "2026",
+    type: "Conference",
+    description: "Assesing the performance of bivariate bicycle codes on erasure qubits based on the Exact and Approximate conversion engines to convert erasure circuits to stabilizer circuits.",
+    link: "https://arxiv.org/abs/2602.07578",
+  },
+  {
     title: "HyperNQ: A Hypergraph Neural Network Decoder for Quantum LDPC Codes",
     authors: "Ameya S Bhave, Navnil Choudhury, Kanad Basu",
     venue: "IEEE ICC",
